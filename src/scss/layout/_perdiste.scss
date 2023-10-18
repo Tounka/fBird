@@ -1,0 +1,37 @@
+.pantallaPerdiste{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.566);
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+
+    h3,p{
+        font-size: 3rem;
+    }
+    h3{
+        font-weight: 600;
+    }
+    .contenedorInterfaz{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.oculto{
+   display: none !important; 
+}
+
+h3{
+    margin: 0;
+}
+.btnJugarOtraVez{
+    cursor: pointer;
+    font-size: 3rem;
+    
+}
